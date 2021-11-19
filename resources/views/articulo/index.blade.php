@@ -9,7 +9,7 @@
   <thead>
     <tr>
       <th scope="col">ID</th>
-      <th scope="col">Código</th>
+      <th scope="col">NombreProducto</th>
       <th scope="col">Descripción</th>
       <th scope="col">Cantidad</th>
       <th scope="col">Precio</th>
@@ -29,7 +29,7 @@
           <a href="/articulos/{{$articulo->id}}/edit" class="btn btn-info">Editar</a>         
               @csrf
               @method('DELETE')
-          <button type="submit" class="btn btn-danger">Delete</button>
+          <button type="submit" class="btn btn-danger">Eliminar</button>
          </form>          
         </td>        
     </tr>
